@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import './Profile.css';
 
 export default function Profile() {
   return (
@@ -7,18 +8,20 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://github.com/nic0mp">
-              <i className="fa fa-github-square"></i>
-            </a>
-            <a href="https://twitter.com/nic0mp">
-              <i className="fa fa-twitter-square"></i>
-            </a>
-            <a href="https://www.instagram.com/nic0mp/">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/nico-mp/">
-              <i className="fa fa-linkedin-square"></i>
-            </a>
+            <div className="colz-icon">
+              <a href="https://github.com/nic0mp">
+                <i className="fa fa-github-square"></i>
+              </a>
+              <a href="https://twitter.com/nic0mp">
+                <i className="fa fa-twitter-square"></i>
+              </a>
+              <a href="https://www.instagram.com/nic0mp/">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/nico-mp/">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+            </div>
           </div>
 
           <div className="profile-details-name">
@@ -56,9 +59,17 @@ export default function Profile() {
               {""}
               Hire Me{" "}
             </button>
-            <a href="NICO PINGUEL 2022 RESUME.pdf" download='NICO PINGUEL 2022 RESUME.pdf'>
-                <button className='btn highlighted-btn'>Get Resume</button>
+            <a
+              href="NICO PINGUEL 2022 RESUME.pdf"
+              download="NICO PINGUEL 2022 RESUME.pdf"
+            >
+              <button className="btn highlighted-btn">Get Resume</button>
             </a>
+          </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background">
+
           </div>
         </div>
       </div>
